@@ -23,9 +23,9 @@ function Hero() {
         <HStack gap="15vh">
             <VStack fontSize='xl' align={'flex-start'}>
                 <Heading size='5xl' color={'cyan.500'} fontWeight={'bold'} pb={'0.5em'}>Hi, I'm Noel Tesaluna</Heading>
-                <Text>I recently graduated as with a Bachelor of Computer Science Degree.</Text>
-                <Text>Currently I am working at the ATO as a System Analyst Intern.</Text>
-                <Text>I have a strong passion for designing and creating software solutions.</Text>
+                <Text letterSpacing={'wide'} >I recently graduated as with a Bachelor of Computer Science Degree.</Text>
+                <Text letterSpacing={'wide'} >Currently I am working at the ATO as a System Analyst Intern.</Text>
+                <Text letterSpacing={'wide'} >I have a strong passion for designing and creating software solutions.</Text>
                 <HStack pt={'1.5em'}>
                     <Link href="mailto:noel.anthony.t@gmail.com" color={'black'}>
                         <MdEmail size={'1.5em'}/>

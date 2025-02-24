@@ -1,0 +1,32 @@
+[
+    {
+        "heading": "LANGUAGES",
+        "skills": [
+            "Java", 
+            "Python", 
+            "JavaScript", 
+            "C#"
+        ]
+    },
+    {
+        "heading": "TECHNOLOGIES",
+        "skills": [
+            "HTML/CSS",
+            "Tailwind CSS",
+            "Git/GitHub",
+            "Docker",
+            "Node",
+            "AWS",
+            "Google Cloud"
+        ]
+    },
+    {
+        "heading": "FRAMEWORKS",
+        "skills": [
+            "React", 
+            "JUnit", 
+            "Maven", 
+            "Spring Boot"
+        ]
+    }
+]
