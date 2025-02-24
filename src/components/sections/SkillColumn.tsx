@@ -12,7 +12,7 @@ function SkillColumn({heading, items}: SkillColumnProps) {
             <Heading fontWeight={'bold'}>{heading}</Heading>
             {
                 items.map((item) =>
-                    <Text fontSize='lg' letterSpacing={'wide'} >{item}</Text>
+                    <Text fontSize='md' letterSpacing={'wide'} >{item}</Text>
                 )
             }
         </VStack>
