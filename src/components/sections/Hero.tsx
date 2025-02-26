@@ -15,11 +15,12 @@ import {
 function Hero() {
   return (
     <Flex 
-        h={'100vh'}
-        w={"100%"}    
+        p={'1em'}
+        h={'100dvh'}
+        w={'100dvw'}
         justify={'center'}
     >
-        <HStack gap="15vh">
+        <HStack gap="10dvw" flexWrap={'wrap-reverse'}>
             <VStack fontSize='xl' align={'flex-start'}>
                 <Heading size='5xl' color={'cyan.500'} fontWeight={'bold'} pb={'0.5em'}>Hi, I'm Noel Tesaluna</Heading>
                 <Text letterSpacing={'wide'} >I recently graduated with a Bachelor of Computer Science Degree.</Text>

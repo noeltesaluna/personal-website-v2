@@ -46,8 +46,8 @@ function ProjectCard({heading, description, img_path, items, link_url, github_ur
         </Flex>
 
     return (
-        <Flex width={'100vh'}>
-            <Image src={img_path} maxWidth={'50vh'} rounded="md"/>
+        <Flex width={'65dvw'}>
+            <Image src={img_path} width={'20dvw'} rounded="md"/>
             <Flex  my='0.5em' pl={'2em'} direction={'column'}>
                 <Heading>{heading}</Heading>
                 <Text my='1em'>{description}</Text>

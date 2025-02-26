@@ -8,12 +8,12 @@ import projects from '../data/projects.json'
 function Projects() {
   return (
     <Flex 
-        w={"100%"}    
-        justify={'flex-start'}
-        align={'center'}
-        direction={'column'}
-        gap={10}
-        pb={20}
+      w={'100dvw'}   
+      justify={'flex-start'}
+      align={'center'}
+      direction={'column'}
+      gap={10}
+      pb={20}
     >
         <Heading size='4xl' color={'cyan.500'} fontWeight={'bold'} pb={'1em'}>PROJECTS</Heading>
         {projects.map((project) => <ProjectCard {...project}

@@ -12,7 +12,7 @@ import {
 function About() {
   return (
     <Flex
-        w={"100%"}    
+        w={'100dvw'}    
         justify={'center'}
         pb={'35vh'}
     >
