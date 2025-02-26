@@ -1,0 +1,9 @@
+[
+    {
+        "heading": "LOOP CINEMAS",
+        "description": "Collaborated with a peer using GitHub to develop a full stack cinema website using modern web technologies such as React, GraphQL, and Sequelize with ORM capabilities. The project featured an interactive and dynamic interface, supported by a robust MySQL database managed with phpMyAdmin for efficient data management and retrieval. Additionally, the website included an admin page to manage movies, reviews, and users, as well as to display statistics.",
+        "img_path": "loopcinemas.png",
+        "tool_tip": "Available upon request due to RMIT's academic integrity.",
+        "items": ["React", "JavaScript", "Tailwind CSS", "Node.js", "Express", "Sequelize"]
+    }
+]

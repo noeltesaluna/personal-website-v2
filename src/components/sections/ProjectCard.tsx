@@ -14,6 +14,7 @@ import ProjectSkill from "./ProjectSkill"
 interface ProjectCardProps {
     heading: string
     description: string
+    img_path: string
     items: string[]
     link_url?: string
     github_url?: string
@@ -22,7 +23,7 @@ interface ProjectCardProps {
 
 
 
-function ProjectCard({heading, description, items, link_url, github_url, tool_tip}: ProjectCardProps) {
+function ProjectCard({heading, description, img_path, items, link_url, github_url, tool_tip}: ProjectCardProps) {
     
     const skills = 
         <Flex direction={'row'} gap={'0.5em'} flexWrap={'wrap'}>
@@ -46,7 +47,7 @@ function ProjectCard({heading, description, items, link_url, github_url, tool_ti
 
     return (
         <Flex width={'100vh'}>
-            <Image src='loopcinemas.png' maxWidth={'50vh'}/>
+            <Image src={img_path} maxWidth={'50vh'}/>
             <Flex  my='0.5em' pl={'2em'} direction={'column'}>
                 <Heading>{heading}</Heading>
                 <Text my='1em'>{description}</Text>
