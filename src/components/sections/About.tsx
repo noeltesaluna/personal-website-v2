@@ -13,6 +13,7 @@ function About() {
         justify={'center'}
         pb={'35vh'}
         p={'1em'}
+        pt={{base: '5em', md: '0em'}}
     >
         <Flex align={'flex-start'} gap={'5em'} flexWrap={'wrap'}>
             <Flex maxWidth={'500px'} align={'flex-start'} direction={'column'}>
