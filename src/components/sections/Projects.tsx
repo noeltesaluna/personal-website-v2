@@ -12,13 +12,22 @@ function Projects() {
       justify={'flex-start'}
       align={'center'}
       direction={'column'}
+      py={20}
+      >
+      <Heading size='4xl' color={'cyan.500'} fontWeight={'bold'} pb={'0.5em'}>PROJECTS</Heading>
+    <Flex 
+      justify={'flex-start'}
+      align={'center'}
+      direction={'column'}
       gap={10}
-      pb={20}
+      
+      p={'1em'}
     >
-        <Heading size='4xl' color={'cyan.500'} fontWeight={'bold'} pb={'1em'}>PROJECTS</Heading>
+        
         {projects.map((project) => <ProjectCard {...project}
     />)}
        
+    </Flex>
     </Flex>
   )
 }

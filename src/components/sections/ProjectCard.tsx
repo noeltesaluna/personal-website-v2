@@ -46,11 +46,12 @@ function ProjectCard({heading, description, img_path, items, link_url, github_ur
         </Flex>
 
     return (
-        <Flex width={'65dvw'}>
-            <Image src={img_path} width={'20dvw'} rounded="md"/>
-            <Flex  my='0.5em' pl={'2em'} direction={'column'}>
-                <Heading>{heading}</Heading>
-                <Text my='1em'>{description}</Text>
+        <Flex maxW={'1000px'} flexWrap={{base: 'wrap', md: 'nowrap'}} gap={'2dvw'}>
+            <Heading display={{base: 'block', md: 'none'}}>{heading}</Heading>
+            <Image src={img_path} w={{base: '100dvw', md: '20dvw'}}rounded="md"/>
+            <Flex  my='0.5em' direction={'column'} align={'flex-start'}>
+                <Heading display={{base: 'none', md: 'block'}} mb='1em'>{heading}</Heading>
+                <Text mb='1em' >{description}</Text>
                 {links}
                 {skills}
             </Flex>
