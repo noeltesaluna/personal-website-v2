@@ -4,7 +4,6 @@ import {
     Flex,
     HStack,
     Text,
-    Box,
     Heading,
     VStack,
     Image,
@@ -20,7 +19,7 @@ function Hero() {
         w={'100dvw'}
         justify={'center'}
     >
-        <HStack gap="10dvw" flexWrap={'wrap-reverse'}>
+        <Flex gap="10dvw" flexWrap={'wrap'} justify={'center'} align={'center'}>
             <VStack fontSize='xl' align={'flex-start'}>
                 <Heading size='5xl' color={'cyan.500'} fontWeight={'bold'} pb={'0.5em'}>Hi, I'm Noel Tesaluna</Heading>
                 <Text letterSpacing={'wide'} >I recently graduated with a Bachelor of Computer Science Degree.</Text>
@@ -38,10 +37,10 @@ function Hero() {
                     </Link>
                 </HStack>
             </VStack>
-            <Box>
-                <Image src="portrait.jpg" height="250px" rounded="md"/>
-            </Box>
-        </HStack>
+            
+            <Image src="portrait.jpg" width="30dvh" rounded="md"/>
+            
+        </Flex>
     </Flex>
   )
 }
