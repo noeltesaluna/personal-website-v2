@@ -1,5 +1,4 @@
-import { VStack, Heading, Text } from '@chakra-ui/react'
-import React from 'react'
+import { Flex, Heading, Text } from '@chakra-ui/react'
 
 interface SkillColumnProps {
     heading: string
@@ -8,14 +7,16 @@ interface SkillColumnProps {
 
 function SkillColumn({heading, items}: SkillColumnProps) {
     return (
-        <VStack align={'flex-start'}>
+        <Flex align={'flex-start'} direction={'column'}>
             <Heading fontWeight={'bold'}>{heading}</Heading>
-            {
-                items.map((item) =>
-                    <Text fontSize='md' letterSpacing={'wide'} >{item}</Text>
-                )
-            }
-        </VStack>
+                <Flex align={'flex-start'} direction={{base: 'row', md: 'column'}} gapX={{base: '16px', md: '8px'}} flexWrap={'wrap'}>
+                {
+                    items.map((item) =>
+                        <Text fontSize='md' letterSpacing={'wide'} >{item}</Text>
+                    )
+                }
+            </Flex>
+        </Flex>
     )
 }
 
