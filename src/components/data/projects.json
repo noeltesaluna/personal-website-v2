@@ -1,23 +1,30 @@
 [
     {
+        "heading": "MoveMeMorE",
+        "description": "Worked in a team of five to simulate truck rollovers using Eight360's virtual vehicle NOVA. Utilised C# within Unity in order to recreate truck experiences from JSON and CSV files. Created the menu user interface for the Unity application, employing a validation scheme for data files used, allowing ease of use for potential RMIT showcases.",
+        "img_path": "movememore.png",
+        "youtube_url": "https://youtu.be/ixUOXe9swS0",
+        "items": ["C#", "Unity"]
+    },
+    {
         "heading": "Loop Cinemas",
         "description": "Collaborated with a peer using GitHub to develop a full stack cinema website using modern web technologies such as React, GraphQL, and Sequelize with ORM capabilities. The project featured an interactive and dynamic interface, supported by a robust MySQL database managed with phpMyAdmin for efficient data management and retrieval. Additionally, the website included an admin page to manage movies, reviews, and users, as well as to display statistics.",
         "img_path": "loopcinemas.png",
-        "tool_tip": "Available upon request due to RMIT's academic integrity.",
+        "tool_tip": "Codebase available upon request due to RMIT's academic integrity.",
         "items": ["React", "JavaScript", "Tailwind CSS", "Node.js", "Express", "Sequelize"]
     },
     {
         "heading": "Super Price",
         "description": "Collaborated with a team of six in an Agile Scrum environment, utilising GitHub for version control, Docker for containerisation, and GitHub Actions for CI/CD. Employed Maven, Spring Boot, and JUnit to create a back-end with REST APIs, while developing a user-friendly interface using React and TypeScript for the SuperPrice website.",
         "img_path": "superprice.png",
-        "tool_tip": "Available upon request due to RMIT's academic integrity.",
+        "tool_tip": "Codebase available upon request due to RMIT's academic integrity.",
         "items": ["React", "TypeScript", "Docker", "Maven", "Spring Boot", "JUnit"]
     },
     {
         "heading": "The Big Problem",
         "description": "A static website displaying data about homelessness within Australia. Built in HTML, CSS and Javalin. Data stored and retrieved using SQLite. Utilised GitHub which allowed collaboration with a partner.",
         "img_path": "thebigproblem.png",
-        "tool_tip": "Available upon request due to RMIT's academic integrity.",
+        "tool_tip": "Codebase available upon request due to RMIT's academic integrity.",
         "items": ["Java", "HTML/CSS", "Javalin", "SQLite"]
     }
 ]

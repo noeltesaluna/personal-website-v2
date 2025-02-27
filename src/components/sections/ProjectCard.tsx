@@ -5,7 +5,7 @@ import {
     Text,
     Link
 } from "@chakra-ui/react"
-import { FaGithub, FaExternalLinkAlt  } from "react-icons/fa";
+import { FaGithub, FaExternalLinkAlt, FaYoutube  } from "react-icons/fa";
 import { IoMdInformationCircleOutline } from "react-icons/io";
 import { Tooltip } from "@/components/ui/tooltip"
 
@@ -18,12 +18,13 @@ interface ProjectCardProps {
     items: string[]
     link_url?: string
     github_url?: string
+    youtube_url?: string
     tool_tip?: string
 }
 
 
 
-function ProjectCard({heading, description, img_path, items, link_url, github_url, tool_tip}: ProjectCardProps) {
+function ProjectCard({heading, description, img_path, items, link_url, github_url, youtube_url, tool_tip}: ProjectCardProps) {
     
     const skills = 
         <Flex direction={'row'} gap={'0.5em'} flexWrap={'wrap'}>
@@ -34,6 +35,9 @@ function ProjectCard({heading, description, img_path, items, link_url, github_ur
     
     const links =
         <Flex direction={'row'} gap={'0.5em'} pb={'1.5em'}>
+            {youtube_url && <Link href={youtube_url} color={'black'}>
+                <FaYoutube size={'1.5em'}/>
+            </Link>}
             {link_url && <Link href={link_url} color={'black'}>
                 <FaExternalLinkAlt size={'1.5em'}/>
             </Link>}
