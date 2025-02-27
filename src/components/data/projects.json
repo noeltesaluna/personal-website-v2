@@ -1,6 +1,6 @@
 [
     {
-        "heading": "MoveMeMorE",
+        "heading": "MoveMemorE",
         "description": "Worked in a team of five to simulate truck rollovers using Eight360's virtual vehicle NOVA. Utilised C# within Unity in order to recreate truck experiences from JSON and CSV files. Created the menu user interface for the Unity application, employing a validation scheme for data files used, allowing ease of use for potential RMIT showcases.",
         "img_path": "movememore.png",
         "youtube_url": "https://youtu.be/ixUOXe9swS0",
