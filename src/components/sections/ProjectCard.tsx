@@ -35,7 +35,7 @@ function ProjectCard({heading, description, img_path, items, link_url, github_ur
     
     const links =
         <Flex direction={'row'} gap={'0.5em'} pb={'1.5em'}>
-            {youtube_url && <Link href={youtube_url} color={'black'}>
+            {youtube_url && <Link href={youtube_url} target="_blank" color={'black'}>
                 <FaYoutube size={'1.5em'}/>
             </Link>}
             {link_url && <Link href={link_url} color={'black'}>
