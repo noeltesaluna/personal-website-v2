@@ -1,5 +1,13 @@
 [
     {
+        "heading": "SenseHat Pixel Art Editor",
+        "description": "Utilised React to develop a pixel art editor, allowing users to create art to be generated into code to be copied into a Raspberry Pi. When the code runs on a Raspberry Pi, the user's generated art will be displayed on the Sense HAT.",
+        "img_path": "sensehatpixelarteditor.png",
+        "github_url": "https://github.com/noeltesaluna/sense-hat-art-editor",
+        "link_url": "https://sensehatpixelarteditor.netlify.app/",
+        "items": ["React", "JavaScript"]
+    },
+    {
         "heading": "MoveMemorE",
         "description": "Worked in a team of five to simulate truck rollovers using Eight360's virtual vehicle NOVA. Utilised C# within Unity in order to recreate truck experiences from JSON and CSV files. Created the menu user interface for the Unity application, employing a validation scheme for data files used, allowing ease of use for potential RMIT showcases.",
         "img_path": "movememore.png",
