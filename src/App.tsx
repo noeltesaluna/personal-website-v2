@@ -7,7 +7,13 @@ import Footer from './components/sections/Footer'
 function App() {
 
   return (
-    <Box color={'black'}>
+    <Box 
+      color={'black'} 
+      data-state="open"
+      _open={{
+          animation: "fade-in 300ms ease-out",
+      }}
+    >
       <Hero/>
       <About/>
       <Projects/>
