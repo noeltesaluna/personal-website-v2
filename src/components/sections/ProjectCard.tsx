@@ -38,7 +38,7 @@ function ProjectCard({heading, description, img_path, items, link_url, github_ur
             {youtube_url && <Link href={youtube_url} target="_blank" color={'black'}>
                 <FaYoutube size={'1.5em'}/>
             </Link>}
-            {link_url && <Link href={link_url} color={'black'}>
+            {link_url && <Link href={link_url} target="_blank" color={'black'}>
                 <FaExternalLinkAlt size={'1.5em'}/>
             </Link>}
             {github_url && <Link href={github_url} target="_blank" color={'black'}>
