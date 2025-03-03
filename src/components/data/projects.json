@@ -29,6 +29,13 @@
         "items": ["React", "TypeScript", "Docker", "Maven", "Spring Boot", "JUnit"]
     },
     {
+        "heading": "Minecraft Village Generator",
+        "description": "Collaborated in a team of four to create a Minecraft village generator with Python (McPi). Designed the terraforming and obstacle handling. Integrated linear equations within a pathing algorithm to seamlessly generate bridges over obstacles. Designed an efficient terraforming method utilising a modified midpoint ellipse drawing algorithm to create natural looking mounds for village buildings to sit atop of.",
+        "img_path": "minecraftvillagegenerator.png",
+        "youtube_url": "https://youtu.be/9lQ3C_iQaXQ?si=NojG8_tp1UvxWDw3&t=277",
+        "items": ["Python", "Algorithms"]
+    },
+    {
         "heading": "The Big Problem",
         "description": "A static website displaying data about homelessness within Australia. Built in HTML, CSS and Javalin. Data stored and retrieved using SQLite. Utilised GitHub which allowed collaboration with a partner.",
         "img_path": "thebigproblem.png",
